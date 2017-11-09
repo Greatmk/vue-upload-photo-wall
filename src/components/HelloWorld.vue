@@ -2,7 +2,10 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <router-link :to="{name: 'uploadPhotoWall'}">
-      <h2>点击进入vue-upload-photo-wall</h2>
+      <h2>点击进入vue-upload上传图片(照片墙)</h2>
+    </router-link>
+    <router-link :to="{name: 'uploadPictureOfHead'}">
+      <h2>点击进入vue-upload上传图片(头像或封面)</h2>
     </router-link>
   </div>
 </template>

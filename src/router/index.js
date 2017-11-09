@@ -1,6 +1,6 @@
 import HelloWorld from '@/components/HelloWorld'
 import uploadPhotoWall from '@/components/uploadPhotoWall'
-
+import uploadPictureOfHead from '@/components/uploadPictureOfHead'
 
 
 let routes = [
@@ -13,6 +13,11 @@ let routes = [
     path: '/uploadPhotoWall',
     name: 'uploadPhotoWall',
     component: uploadPhotoWall
+  },
+  {
+    path: '/uploadPictureOfHead',
+    name: 'uploadPictureOfHead',
+    component: uploadPictureOfHead
   }
 ];
 
